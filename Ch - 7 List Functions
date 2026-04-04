@@ -1,0 +1,20 @@
+letters = ["e", "c", "b", "d", "a", "g", "d", "f"]
+numbers = [2, 21, 41, 3, 7]
+friends = ["Jeff", "Jim", "Jake", "Jacob", "Jack"]
+print(friends)
+numbers.extend(friends)
+print(numbers)
+friends.append("Oscar")
+print(friends)
+friends.insert(1, "Toby")
+print(friends)
+friends.remove("Jake")
+print(friends)
+friends.clear()
+print(friends)
+letters.pop()
+print(letters)
+print(letters.index("c"))
+print(letters.count("d"))
+letters.sort()
+print(letters)
